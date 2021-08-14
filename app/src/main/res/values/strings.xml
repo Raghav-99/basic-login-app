@@ -1,4 +1,15 @@
 <resources>
     <string name="app_name">Training</string>
     <string name="new_spp_name">LoginApp</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="f_passwd">Forgot Password?</string>
+    <string name="login">Login</string>
+    <string name="enter_passwd">Enter the password</string>
+    <string name="username">Enter your username or email</string>
+    <string name="stark">Tony Stark</string>
+    <string name="bio">Eccentric Billionaire</string>
+    <string name="click_here">Click Here</string>
+    <string name="enter_name">Enter your name</string>
+    <string name="malibu_stark_co">malibu@stark.co</string>
+    <string name="log_out">Log Out</string>
 </resources>

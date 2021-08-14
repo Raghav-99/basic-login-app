@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
 
     lateinit var sharedPreferences: SharedPreferences
     override fun onCreate(savedInstanceState: Bundle?) {
-        title = "Facebook Login"
+        title = "Stark Login"
         val validUsers = arrayOf("Admin1", "Admin2", "Admin3")
         val validPasswords = arrayOf("Admin1", "Admin2", "Admin3")
         super.onCreate(savedInstanceState)
@@ -32,10 +32,10 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
             finish()
         } else {
-            setContentView(R.layout.facebook_linear) }
+            setContentView(R.layout.stark_linear) }
 
 
-            //setContentView(R.layout.facebook_linear)
+            //setContentView(R.layout.stark_linear.xml)
             println("oncreate called")
             etUsername = findViewById(R.id.etUsername)
             etPassword = findViewById(R.id.etPassword)

@@ -19,7 +19,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="125dp"
         android:padding="10dp"
-        android:text="TONY STARK"
+        android:text="@string/stark"
         android:textSize="20sp"
         android:textStyle="bold" />
 
@@ -28,7 +28,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="125dp"
         android:padding="8dp"
-        android:text="Eccentric Billionaire"
+        android:text="@string/bio"
         android:textSize="20sp"
         android:textStyle="italic" />
 
@@ -36,7 +36,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="30dp"
-        android:text="Click Here"
+        android:text="@string/click_here"
         android:textSize="18sp"
         android:textStyle="bold" />
 
@@ -44,6 +44,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
-        android:hint="enter ur name"
+        android:hint="@string/enter_name"
         android:inputType="text" />
 </LinearLayout>

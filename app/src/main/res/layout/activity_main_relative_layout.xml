@@ -20,7 +20,7 @@
         android:layout_marginTop="10dp"
         android:layout_toRightOf="@id/imgStark"
         android:padding="10dp"
-        android:text="TONY STARK"
+        android:text="@string/stark"
         android:textSize="20sp"
         android:textStyle="bold" />
 
@@ -32,7 +32,7 @@
         android:layout_marginLeft="15dp"
         android:layout_toRightOf="@id/imgStark"
         android:padding="8dp"
-        android:text="Eccentric Billionaire"
+        android:text="@string/bio"
         android:textSize="20sp"
         android:textStyle="italic" />
 
@@ -43,7 +43,7 @@
         android:layout_below="@id/txtCharisma"
         android:layout_marginLeft="20dp"
         android:layout_toRightOf="@id/imgStark"
-        android:text="malibu@stark.co"
+        android:text="@string/malibu_stark_co"
         android:textColor="#000000"
         android:textSize="20sp" />
 
@@ -56,7 +56,7 @@
         android:layout_marginRight="20dp"
         android:layout_marginBottom="12dp"
         android:background="#8C59B1"
-        android:text="Log Out"
+        android:text="@string/log_out"
         android:textAlignment="center"
         android:textSize="17sp"
         android:textStyle="bold" />

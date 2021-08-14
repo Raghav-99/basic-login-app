@@ -11,7 +11,7 @@
         android:layout_height="74dp"
         android:layout_gravity="center"
         android:layout_marginTop="80dp"
-        android:src="@drawable/facebooklogo" />
+        android:src="@drawable/s_logo" />
 
     <EditText
         android:id="@+id/etUsername"
@@ -20,7 +20,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginTop="100dp"
         android:layout_marginRight="20dp"
-        android:hint="Username or Email"
+        android:hint="@string/username"
         android:inputType="textEmailAddress"
         android:maxLines="2"
         android:padding="10dp"
@@ -34,7 +34,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginTop="12dp"
         android:layout_marginRight="20dp"
-        android:hint="Enter the password"
+        android:hint="@string/enter_passwd"
         android:inputType="textPassword"
         android:padding="10dp"
         android:textColor="#ffffff"
@@ -48,7 +48,7 @@
         android:layout_marginTop="50dp"
         android:layout_marginRight="22dp"
         android:background="#7e57c2"
-        android:text="LOG IN"
+        android:text="@string/login"
         android:textColor="#ffffff"
         android:textSize="20sp"
         android:textStyle="bold" />
@@ -69,7 +69,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginBottom="12dp"
-                android:text="Forgot Password?"
+                android:text="@string/f_passwd"
                 android:textColor="#ffffff"
                 android:textSize="20sp" />
 
@@ -79,7 +79,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginBottom="10dp"
-                android:text="Sign Up For Facebook"
+                android:text="@string/sign_up"
                 android:textColor="#ffffff"
                 android:textSize="20sp" />
 
